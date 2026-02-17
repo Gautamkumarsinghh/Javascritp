@@ -16,8 +16,17 @@
 // const a ="morning in good happy endingh";
 // console.log(a.length)
 
-let i=1;
-for(i=1;i<=5; i++){
-    console.log(i);
-}
+// let i=1;
+// for(i=1;i<=5; i++){
+//     console.log(i);
+// }
+
+// let age = 7;
+//  if(age <= 18){
+//     console.log("you can vote");
+//  }
+// if(age < 18){
+//     console.log("you cannot vote");
+//  }
+
 
