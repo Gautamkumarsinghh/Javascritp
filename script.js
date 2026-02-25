@@ -151,6 +151,27 @@
 // }
 // console.log("You win");
 
-//string 
-let str="gautam /n singh"
+//string method
+let str="gautam singh"
 console.log("gautam \n singh");
+
+let str1 ="01234567";
+console.log(str1.slice(2,4)); // return part of string
+
+let join="today" +str1 + str ; //str.concat ( joint a string )
+console.log(join);
+console.log(str.replace("gautam singh", "sonu")) //replace method
+
+console.log(str.charAt(5)); //sting index letter 
+
+//Qs1. prompt othe uder to enter their full name. generate a username for them based on the input start username with @, folloed jby their full name and ending with the fullname length 
+
+let fullname = prompt("enter your name ");
+
+let username = "@" +fullname + fullname.length;
+console.log(username);
+
+
+                                 //Arrays ( video no- 4 ,date: 25-02-2025)
+   
+                                 
