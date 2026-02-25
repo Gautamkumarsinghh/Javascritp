@@ -133,20 +133,24 @@
 // }
 
 //pratice Qs1 ( print all even number from 0 to 100)
-for (let num=0; num <= 100; num++){
-    if (num%2 ===0){
-    console.log("even=", num);
-}else{ 
-    console.log("odd=",num);
-}
-}
+// for (let num=0; num <= 100; num++){
+//     if (num%2 ===0){
+//     console.log("even=", num);
+// }else{ 
+//     console.log("odd=",num);
+// }
+// }
 
 //pratic Qs2 (Gusses a random number and then match the number than print the "you win" )
 
-let gameNum = 25;
-let userNum = prompt ("Gusses the number :");
+// let gameNum = 25;
+// let userNum = prompt ("Gusses the number :");
 
-while(userNum != gameNum){
-    userNum = prompt("You entered worng number , Gusses again:");
-}
-console.log("You win");
+// while(userNum != gameNum){
+//     userNum = prompt("You entered worng number , Gusses again:");
+// }
+// console.log("You win");
+
+//string 
+let str="gautam /n singh"
+console.log("gautam \n singh");
