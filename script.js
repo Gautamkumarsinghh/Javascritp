@@ -1,179 +1,247 @@
-// // // // let c=4;
-// // // // b=6;
-// // // // console.log("a + b =", c + b);
+// // // // // let c=4;
+// // // // // b=6;
+// // // // // console.log("a + b =", c + b);
 
-// // // let a = 2;
-// // // let b = "9";
-// // // console.log(a=b)
-// // // length
+// // // // let a = 2;
+// // // // let b = "9";
+// // // // console.log(a=b)
+// // // // length
 
-// // // let text = "hello";
-// // // console.log(text.toUpperCase());  // HELLO
+// // // // let text = "hello";
+// // // // console.log(text.toUpperCase());  // HELLO
 
-// // // let text = "Hello";
-// // // console.log(text.length);   // 5
+// // // // let text = "Hello";
+// // // // console.log(text.length);   // 5
 
-// // const a ="morning in good happy endingh";
-// // console.log(a.length)
+// // // const a ="morning in good happy endingh";
+// // // console.log(a.length)
 
-// // let i=1;
-// // for(i=1;i<=5; i++){
-// //     console.log(i);
-// // }
+// // // let i=1;
+// // // for(i=1;i<=5; i++){
+// // //     console.log(i);
+// // // }
 
-// // let age = 7;
-// //  if(age <= 18){
-// //     console.log("you can vote");
-// //  }
-// // if(age < 18){
-// //     console.log("you cannot vote");
-// //  }
+// // // let age = 7;
+// // //  if(age <= 18){
+// // //     console.log("you can vote");
+// // //  }
+// // // if(age < 18){
+// // //     console.log("you cannot vote");
+// // //  }
 
-// //conditional statement 
+// // //conditional statement 
 
-// // let mode = "light";
-// // let colour ;
+// // // let mode = "light";
+// // // let colour ;
 
-// //  if ( mode === "dark"){
-// //     colour ="black";
-// //  }
-// //   if ( mode === "light"){
-// //     colour ="pink";
-// //  }
-// // console.log(colour);
+// // //  if ( mode === "dark"){
+// // //     colour ="black";
+// // //  }
+// // //   if ( mode === "light"){
+// // //     colour ="pink";
+// // //  }
+// // // console.log(colour);
 
-// //else-if statment
-// // let age = "18";
-// // if(age <18){
-// //     console.log("junior");
+// // //else-if statment
+// // // let age = "18";
+// // // if(age <18){
+// // //     console.log("junior");
     
-// // } else if(age>60){
-// //     console.log("senior");
-// // } else {
-// //     console.log("middle")
+// // // } else if(age>60){
+// // //     console.log("senior");
+// // // } else {
+// // //     console.log("middle")
+// // // }
+// // //ternary operators
+// // // let age= 16;
+// // // let a = age >=18?"adult" : "not adult";
+// // // console.log(a)
+
+// // //partice Q1
+
+// // // let a = prompt("enter number");
+// // // if (a % 5 === 0){
+// // //     console.log(a,"is multiple of 5");
+// // // }
+// // // else{
+// // //     console.log(a,"is not multiple of 5");
+// // // }
+
+// // //partice Q2
+// // // let score =prompt("enter your score(0-100");
+// // // let grade;
+
+// // // if(score >=90 && score <= 100){
+// // //     grade = "A";
+// // // } else if(score >= 70 && score <=89){
+// // //     grade ="B";
+// // // }else if(score >= 60 && score <=69){
+// // //     grade ="C";
+// // // }else if(score >= 50 && score <=59){
+// // //     grade ="D";
+// // // }else if(score >= 0 && score <=49){
+// // //     grade ="F";
+// // // }
+// // // console.log("according to your scores,Your grade was:",grade)
+
+// //                                  /* for loop ( video 3 ) */
+
+// // // //print 1 to 5
+// // //                                  for ( let i = 1; i<= 5; i++){
+// // //     console.log ("apna computer");
+// // // }
+// // // console.log("hindi");
+
+// // // //calculate sum of 1 to 5
+// // // let sum = 0;
+// // // for(let i=1; i>=9; i++){
+// // //     sum = sum+i;
+// // // }
+// // // console.log("sum=", sum);
+
+// //                 //while loop
+
+// // // let i =1;
+// // // do{
+// // //     console.log("apna college");
+// // //   i++
+// // // } while (i<=5);             
+
+// // // for-of loop
+// // let str ="gautam";
+// // for (let i of str){
+// //     console.log("'i=", i);
 // // }
-// //ternary operators
-// // let age= 16;
-// // let a = age >=18?"adult" : "not adult";
-// // console.log(a)
 
-// //partice Q1
-
-// // let a = prompt("enter number");
-// // if (a % 5 === 0){
-// //     console.log(a,"is multiple of 5");
+// // let size = 0;
+// // for(let i of str){
+// //     console.log("i=",i);
+// //     size++;
 // // }
-// // else{
-// //     console.log(a,"is not multiple of 5");
+// // console.log("string size =", size);
+
+// // //for-in loop
+
+// // let student ={
+// //     name : "hello",
+// //     age : 67,
+// //     cgps : 8.09,
+// //     ispass : false,
+// // };
+// // for  ( let key in student){
+// //     console.log("key = ",key, "value=",student [key]);
 // // }
 
-// //partice Q2
-// // let score =prompt("enter your score(0-100");
-// // let grade;
-
-// // if(score >=90 && score <= 100){
-// //     grade = "A";
-// // } else if(score >= 70 && score <=89){
-// //     grade ="B";
-// // }else if(score >= 60 && score <=69){
-// //     grade ="C";
-// // }else if(score >= 50 && score <=59){
-// //     grade ="D";
-// // }else if(score >= 0 && score <=49){
-// //     grade ="F";
+// //pratice Qs1 ( print all even number from 0 to 100)
+// // for (let num=0; num <= 100; num++){
+// //     if (num%2 ===0){
+// //     console.log("even=", num);
+// // }else{ 
+// //     console.log("odd=",num);
 // // }
-// // console.log("according to your scores,Your grade was:",grade)
-
-//                                  /* for loop ( video 3 ) */
-
-// // //print 1 to 5
-// //                                  for ( let i = 1; i<= 5; i++){
-// //     console.log ("apna computer");
 // // }
-// // console.log("hindi");
 
-// // //calculate sum of 1 to 5
-// // let sum = 0;
-// // for(let i=1; i>=9; i++){
-// //     sum = sum+i;
+// //pratic Qs2 (Gusses a random number and then match the number than print the "you win" )
+
+// // let gameNum = 25;
+// // let userNum = prompt ("Gusses the number :");
+
+// // while(userNum != gameNum){
+// //     userNum = prompt("You entered worng number , Gusses again:");
 // // }
-// // console.log("sum=", sum);
+// // console.log("You win");
 
-//                 //while loop
+// //string method
+// // let str="gautam singh"
+// // console.log("gautam \n singh");
 
-// // let i =1;
-// // do{
-// //     console.log("apna college");
-// //   i++
-// // } while (i<=5);             
+// // let str1 ="01234567";
+// // console.log(str1.slice(2,4)); // return part of string
 
-// // for-of loop
-// let str ="gautam";
-// for (let i of str){
-//     console.log("'i=", i);
-// }
+// // let join="today" +str1 + str ; //str.concat ( joint a string )
+// // console.log(join);
+// // console.log(str.replace("gautam singh", "sonu")) //replace method
 
-// let size = 0;
-// for(let i of str){
-//     console.log("i=",i);
-//     size++;
-// }
-// console.log("string size =", size);
+// // console.log(str.charAt(5)); //sting index letter 
 
-// //for-in loop
+// // //Qs1. prompt othe uder to enter their full name. generate a username for them based on the input start username with @, folloed jby their full name and ending with the fullname length 
 
-// let student ={
-//     name : "hello",
-//     age : 67,
-//     cgps : 8.09,
-//     ispass : false,
-// };
-// for  ( let key in student){
-//     console.log("key = ",key, "value=",student [key]);
-// }
+// // let fullname = prompt("enter your name ");
 
-//pratice Qs1 ( print all even number from 0 to 100)
-// for (let num=0; num <= 100; num++){
-//     if (num%2 ===0){
-//     console.log("even=", num);
-// }else{ 
-//     console.log("odd=",num);
-// }
-// }
-
-//pratic Qs2 (Gusses a random number and then match the number than print the "you win" )
-
-// let gameNum = 25;
-// let userNum = prompt ("Gusses the number :");
-
-// while(userNum != gameNum){
-//     userNum = prompt("You entered worng number , Gusses again:");
-// }
-// console.log("You win");
-
-//string method
-// let str="gautam singh"
-// console.log("gautam \n singh");
-
-// let str1 ="01234567";
-// console.log(str1.slice(2,4)); // return part of string
-
-// let join="today" +str1 + str ; //str.concat ( joint a string )
-// console.log(join);
-// console.log(str.replace("gautam singh", "sonu")) //replace method
-
-// console.log(str.charAt(5)); //sting index letter 
-
-// //Qs1. prompt othe uder to enter their full name. generate a username for them based on the input start username with @, folloed jby their full name and ending with the fullname length 
-
-// let fullname = prompt("enter your name ");
-
-// let username = "@" +fullname + fullname.length;
-// console.log(username);
+// // let username = "@" +fullname + fullname.length;
+// // console.log(username);
 
 
-                                 //Arrays ( video no- 4 ,date: 25-02-2025)
+//                                  //Arrays ( video no- 4 ,date: 25-02-2025)
    
-     let marks = ["rahul", 87, 90];   
-     console.log(marks);
-     console.log(marks.length);                         
+//     //  let marks = ["rahul", 87, 90];   
+//     //  console.log(marks);
+//     //  console.log(marks.length);                         
+
+//     //  marks[0]=62;
+//     //  console.log(marks);
+
+//     //array ko loop ke help se print karana hai 
+
+//     let fruits = ["apple", "mango", "banana", "guava "];
+//     for(let i = 0; i < fruits.length; i++){  //for loop
+//      console.log(fruits[i]);
+//     }
+   
+//     for (let f of fruits ){  //for-of (loop)
+//         console.log(f);
+//     }
+
+//  for (let f of fruits ){  //for-of (loop)
+//         console.log(f.toUpperCase()); //all array are upper case 
+//  }
+
+//  //Qs1). for a given array with marks of students ->[86,45,44,46,76] find the average marks of the entire class
+
+//  let marks =[70,67,70,45,70,34,34];
+
+//  let sum = 0;
+//  for(let val of marks){
+//     sum = sum +val;   
+//  }
+//  console.log(sum);
+// let avg = sum / marks.length;
+// console.log(`avg marks of the class = ${avg}`);
+
+// //Qs2). for given array with prices of 5 items -> [45,44,344,334,234,234] all iresm have an offer of 10% oss on them. change the array to store final price after applying offer .
+
+// let items = [74,43,34,35,3544,355,35];
+
+// let i=0;
+// for (let val of items ){
+
+//     let offer = val / 10;
+//     items[i] = items[i] - offer;
+//     console.log(`value after offer = ${items[i]}`);
+//     i++;
+// }
+
+// for (let i = 0; i<items.length; i++){
+//     let offer = items[i]/10;
+//     items[i] -= offer;
+// }
+// console.log(items);
+
+// // array method
+
+// fruits.push("potato", "ononline", "pea"); //push 
+// console.log(fruits);
+
+// let marvalHeroes = ["thor", "spiderman", "ironman"];
+// let dcheroes= ["superman", "man"];
+// let indian=["krish","sharukhan"];
+// let heroes = marvalHeroes.concat(dcheroes,indian);
+// console.log(heroes);
+
+let name =["ram", "shyam", "raja", "hindi", "today"];
+
+name.push("ola"); //last add
+name.unshift("mota"); //first add
+name.splice(3,1,"patla"); //replace 
+name.shift();
+console.log(name);
